@@ -161,4 +161,4 @@ If this policy changes, the date above is updated and the change is mentioned in
 
 ## Contact
 
-Questions: **<put your contact email here>**
+Questions: **serkantkn5@gmail.com**

@@ -165,4 +165,4 @@ değişti" ekranında belirtilir.
 
 ## İletişim
 
-Sorularınız için: **<buraya iletişim e-posta adresini yaz>**
+Sorularınız için: **serkantkn5@gmail.com**
