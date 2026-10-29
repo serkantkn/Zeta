@@ -323,7 +323,7 @@ okunur, Pro ayarları silinmez, Pro'ya geçince olduğu gibi geri gelir.
 
 ## Gizlilik
 
-Sunucu yok. Reklam, analiz, kullanıcı hesabı yok. Kişilerin, mesajların ve fotoğrafların telefonda kalır.
+Sunucu yok. Uygulamada reklam, analiz, kullanıcı hesabı yok. Kişilerin, mesajların ve fotoğrafların telefonda kalır.
 Telefondan yalnızca hava durumu, haberler, şarkı sözü ve arama önerisi istekleri çıkar (tarayıcıda reklam
 engelleme açıksa haftada bir engelleme listesi de indirilir) — o da o özelliği kullandığında ve kimliğin eklenmeden. E-posta şifreleri ve kilitli notlar cihazda şifrelenir.
 Üç izin isteğe bağlıdır ve tek bir iş içindir: hassas konum yalnızca bağlı Wi-Fi ağının adını göstermek için
@@ -452,7 +452,7 @@ Start, messages, music and the TV all speak one language, and the phone link let
   buttons, the bar, a live tile) and Zeta draws it on phones and tablets, in Aura and in Mosaic, like one of its own.
   No code goes into Zeta, no hub is added without the person's say, and Zeta gives a hub none of their data.
   ZetaHubKit is Apache 2.0, in the public repository's [`hubkit/`](https://github.com/serkantkn/Zeta/tree/main/hubkit); guide: [write a hub for Zeta](https://serkantkn.github.io/Zeta/developers.html).
-- **Privacy.** No server, no ads, no analytics, no account. Only weather, news, lyrics and search suggestions
+- **Privacy.** No server, and in the app no ads, no analytics, no account. Only weather, news, lyrics and search suggestions
   (and, with blocking on, a weekly blocklist download) ever leave the phone, and only when you use them. Two
   optional permissions do one thing each: precise location only shows the Wi-Fi network's name (the weather
   keeps to a rounded, approximate position), nearby devices only names the Bluetooth devices connected. See [PRIVACY.en.md](PRIVACY.en.md).

@@ -1,6 +1,6 @@
 # Zeta — Privacy Policy
 
-Last updated: 28 October 2026 · Version 1.7
+Last updated: 29 October 2026 · Version 1.8
 
 ## In short
 
@@ -145,6 +145,14 @@ The app is not directed at children and collects no age information.
 Uninstalling removes everything the app kept. To clear it without uninstalling: Android
 Settings → Apps → Zeta → Storage → Clear data. There is no account or record of yours
 on our side to delete, because none is ever created.
+
+## This website
+
+Not the app, only the website (serkantkn.github.io/Zeta) counts how often its pages are opened. It uses
+[GoatCounter](https://www.goatcounter.com), which sets no cookies, does not follow you across sites and does not
+keep your IP address. All it counts is which page was opened, where the visit came from (the referring site), the
+kind of browser, the screen size and roughly the country; a press of the download button is counted too. None of
+it is shared or used for advertising. With "Do Not Track" on in your browser, or a blocker, you are not counted at all.
 
 ## Changes
 

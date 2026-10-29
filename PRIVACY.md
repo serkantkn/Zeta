@@ -1,6 +1,6 @@
 # Zeta — Gizlilik Politikası
 
-Son güncelleme: 28 Ekim 2026 · Sürüm 1.7
+Son güncelleme: 29 Ekim 2026 · Sürüm 1.8
 
 ## Kısaca
 
@@ -148,6 +148,15 @@ Uygulama çocuklara yönelik değildir ve yaş bilgisi toplamaz.
 Uygulamayı kaldırmak, sakladığı her şeyi siler. Kaldırmadan silmek isterseniz Android
 Ayarlar → Uygulamalar → Zeta → Depolama → Verileri temizle. Bizde silinecek bir hesap
 veya kayıt yoktur, çünkü hiçbir zaman oluşmaz.
+
+## Bu web sitesi
+
+Uygulama değil, yalnızca tanıtım sitesi (serkantkn.github.io/Zeta) sayfaların kaç kez açıldığını sayar.
+Bunun için [GoatCounter](https://www.goatcounter.com) kullanılır: çerez koymaz, sizi siteler arasında izlemez,
+IP adresinizi saklamaz. Sayılan yalnızca hangi sayfanın açıldığı, nereden gelindiği (yönlendiren site), tarayıcı
+türü, ekran boyutu ve kabaca ülke; indirme düğmesine basılması da bir sayı olarak tutulur. Bunlar kimseyle
+paylaşılmaz, reklam için kullanılmaz. Tarayıcınızda "izleme" (Do Not Track) açıksa ya da bir engelleyici
+kullanıyorsanız hiç sayılmazsınız.
 
 ## Değişiklikler
 
