@@ -1,6 +1,6 @@
 # Zeta — Gizlilik Politikası
 
-Son güncelleme: 20 Ekim 2026 · Sürüm 1.4
+Son güncelleme: 28 Ekim 2026 · Sürüm 1.7
 
 ## Kısaca
 
@@ -31,7 +31,8 @@ eder.
 | Yüklü uygulamalar ve kullanım istatistikleri | Uygulama listesi, en çok kullanılanlar |
 | Klavye ile yazdıklarınız | Kelime tahmini ve düzeltme |
 | Hassas konum *(isteğe bağlı)* | Yalnızca ayarlar → bağlantılar'da bağlı olduğunuz Wi-Fi ağının adını göstermek için: Android ağ adını yalnızca bu izni olan uygulamalara verir. Konumunuz bu izinle okunmaz; hava durumu yuvarlanmış, yaklaşık konumu kullanır. Tarayıcıda konum izni verdiğiniz siteler, her tarayıcıda olduğu gibi, konumu hassas olarak alabilir. |
-| Yakındaki cihazlar *(isteğe bağlı)* | Yalnızca ayarlar → bağlantılar'da şu an bağlı Bluetooth cihazlarının adlarını göstermek için. Cihaz aranmaz, eşleştirilmez, bağlanılmaz. |
+| Yakındaki cihazlar *(isteğe bağlı)* | Yalnızca şu an bağlı Bluetooth cihazlarının adlarını ayarlar → bağlantılar'da, adlarını ve pil düzeylerini de pil widget'ında göstermek için. Cihaz aranmaz, eşleştirilmez, bağlanılmaz; bu bilgiler telefondan çıkmaz. |
+| Fiziksel etkinlik *(isteğe bağlı)* | Yalnızca başlangıçtaki adım widget'ı için: telefonun adım sayacından bugünkü adım sayısı okunur. Sayı ve günü telefonda saklanır, hiçbir yere gönderilmez; başka bir etkinlik bilgisi okunmaz. |
 
 Klavye hakkında ayrıca: **şifre alanlarında hiçbir şey öğrenilmez**, uygulamanın "bunu
 öğrenme" bayrağı (gizli sekmeler, tek kullanımlık kodlar) dinlenir ve şifre yöneticisinin
@@ -94,6 +95,10 @@ ekranın köşesinde gösterir. Bu özellik siz eşleştirme yapmadıkça hiçbi
   kendisi görür; değilse telefon ve mesaj uygulamalarınızın bildirimlerinden okur (bunun için
   bildirim erişimi gerekir). WhatsApp gibi diğer uygulamaların mesajları da isteğe bağlı olarak
   bildirimlerden okunur.
+- **Kendi gönderdikleriniz:** telefonu televizyonun kumandası olarak kullandığınızda ya da
+  paylaş menüsündeki "TV'de aç"ı seçtiğinizde, bastığınız tuşlar, yazdığınız sözcükler, paylaştığınız
+  bağlantı ya da resim eşli televizyona aynı yoldan gider: doğrudan, şifreli, yerel ağınız üzerinden.
+  Televizyon isteneni yapar ve hiçbir şey saklamaz; bir resim yalnızca bir sonraki gelene kadar tutulur.
 - **Televizyonda:** gelen bildirim yalnızca ekranda gösterilir ve birkaç saniye sonra kaybolur;
   kaydedilmez. Televizyon yalnızca eşlediği telefonların adını ve anahtarını saklar.
 - **Kapatmak:** telefonda ayarlar → bağlantılar → TV bağlantısı'ndan her tür ayrı ayrı ya da
@@ -101,8 +106,10 @@ ekranın köşesinde gösterir. Bu özellik siz eşleştirme yapmadıkça hiçbi
 
 ## Televizyonda
 
-Televizyonda erişilebilirlik servisi açılırsa yalnızca üç iş için kullanılır: kumandanın Home
-tuşunu yakalamak, televizyon arayüzünün "kapat" penceresinde seçtiğinizde televizyonu kapatma
+Televizyonda erişilebilirlik servisi açılırsa yalnızca beş iş için kullanılır: eşlediğiniz telefonun
+gönderdiği tuşlara basmak ve yazıyı (yalnızca televizyonda seçili yazı alanına) koymak; kumandanın Home
+tuşunu yakalamak; televizyon açıldıktan ya da uykudan uyandıktan sonraki birkaç saniye içinde, Zeta'nın
+televizyonun kendi ana ekranı yerine açılabilmesi için öndeki uygulamanın yalnızca adına bakmak; televizyon arayüzünün "kapat" penceresinde seçtiğinizde televizyonu kapatma
 menüsünü açmak ya da uyutmak ve eşlediğiniz telefonun bildirimini diğer uygulamaların üstünde
 göstermek. Ekrandaki yazılar okunmaz, hiçbir şey kaydedilmez ve gönderilmez.
 

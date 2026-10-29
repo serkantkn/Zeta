@@ -18,8 +18,11 @@ camerax = "1.6.2"
 biometric = "1.1.0"
 fragment = "1.8.9"
 shizuku = "13.1.5"
+window = "1.5.1"
 
 [libraries]
+# Jetpack WindowManager: where a foldable's hinge is and how it is held (ui/theme/Fold.kt)
+androidx-window = { group = "androidx.window", name = "window", version.ref = "window" }
 # Shizuku: settings only Android's shell may change, with the person's say-so (util/Shizuku*)
 shizuku-api = { group = "dev.rikka.shizuku", name = "api", version.ref = "shizuku" }
 shizuku-provider = { group = "dev.rikka.shizuku", name = "provider", version.ref = "shizuku" }

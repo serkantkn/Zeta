@@ -50,6 +50,11 @@ telefonlarında çalışıyor — ve hiçbir şeyi hiçbir yere göndermiyor.
   simgenin hemen yanında. Sürükle, sırala, üst üste bırakıp klasör yap.
 - **Buzlu karolar** *(Pro)*. Saydam karoların arkasındaki duvar kağıdı buzlu cam gibi bulanıklaşabilir; ne kadar,
   ayarlardan.
+- **Widget'lar.** Pil, fener, zamanlayıcı, ses modu ve arama; *(Pro)* dünya saati, geri sayım, notlardan bir
+  yapılacaklar listesi ve günlük adım. Mozaik'te ve Panorama'da karo, Aura'da karolar sayfasında durur; dört boyutun
+  her biri için ayrı düzenlenmiş; sayaçlar Aura'nın saati gibi hane hane döner, pil widget'ı geniş
+  boyutta iki, büyükte dört cihazı (telefon ve bağlı kulaklık, saat, klavye…) adlarıyla gösterir. Müzik karosu çalan uygulamayı (Spotify da olur) karodan yönetir, takvimin büyük
+  karosu ayı gösterir.
 - **Her şey sabitlenir.** Uygulama, kişi, konuşma, albüm, plak, not, web sayfası.
 - **Karo başına kişiselleştirme** *(Pro)*. Renk, ad, simge (Mozaik glifleri, ikon paketi ya da kendi resmin),
   simge boyutu, karoyu dolduran resim, animasyon, bildirim, şeffaflık ve yazı rengi — hepsi tek karo için,
@@ -124,7 +129,7 @@ beyaz bir çizgi menüye açılır.
   hub: sık ziyaret edilenler, sık kullanılanlar, okuma listesi, geçmiş. Telefonda okurken adres çubuğu ince bir
   şeride iner.
 - **Haberler.** Manşetler, gündem, dünya, ekonomi, teknoloji, spor Google Haberler'den; "kaynaklarım" *(Pro)* takip ettiğin
-  sitelerin RSS akışlarından, hazır Türkçe, İngilizce, Fransızca, Almanca, İspanyolca ve İtalyanca kaynaklarla ya da kendi eklediğin adreslerle. Habere
+  sitelerin RSS akışlarından, hazır Türkçe, İngilizce, Fransızca, Almanca, İspanyolca, İtalyanca ve Portekizce kaynaklarla ya da kendi eklediğin adreslerle. Habere
   dokununca resmi ve özeti, devamı sitenin kendi sayfasında.
 - **Video oynatıcı.** Sade kontroller, iki kez dokunup 10 saniye atla, kaldığı yerden devam, ana ekrana dönünce
   küçük pencerede oynamaya devam. Altyazı (videonun yanındaki dosyalar da), ses parçası, hız, ekranı doldurma,
@@ -148,7 +153,10 @@ Durum çubuğundan aşağı çekince Android'in paneli yerine eylem merkezi iner
 hızlı eylemler (wi-fi, bluetooth, fener, döndürme kilidi; genişletince mobil veri, uçak modu, konum, sessiz
 saatler), ince parlaklık çubuğu, çalan müzik ve uygulamaya göre gruplu bildirimler. Bildirime dokun aç, sağa
 kaydır sil, mesajlara yerinde yanıt ver. Başlatıcının kendi bildirimleri e-posta, mesajlar, telefon diye
-hub'ına göre ayrılır. Tablette sağ kenardan bir sütun olarak gelir. Bir erişilebilirlik servisiyle çalışır;
+hub'ına göre ayrılır. Hızlı eylemler panelin içinde düzenlenir: bir kareye basılı tut ya da "düzenle"ye dokun,
+sürükleyerek sırala, ✕ ile kaldır, yenilerini ekle (erişim noktası, koyu mod, göz koruma, alarmlar, kamera,
+hesap makinesi, notlar ve diğerleri). Panelin saydamlığı ve *(Pro)* arkasının bulanıklığı da orada, değiştikçe
+görünerek ayarlanır. Tablette sağ kenardan bir sütun olarak gelir. Bir erişilebilirlik servisiyle çalışır;
 kilit ekranında Android'in kendi paneli kalır, böylece bildirimler kilitliyken görünmez.
 
 <p align="center">
@@ -185,7 +193,7 @@ Hub'lar da Panorama düzenindedir: başlıklar solda, açılan şey yanındaki b
 
 Android TV ve Google TV'de Zeta kumandayla kullanılır. Televizyonda işe yarayan
 hub'lar oradadır: müzik + videolar (oynatıcısıyla), fotoğraflar, hava durumu, haberler, saat, dosyalar ve ayarlar;
-telefon, mesajlar, kişiler, kamera gibi telefona özgü olanlar gösterilmez. Ayarlar → görünüm → TV tasarımı'ndan iki
+telefon, mesajlar, kişiler, kamera gibi telefona özgü olanlar gösterilmez. Ayarlar → görünüm → TV tasarımı'ndan dört
 tasarımdan biri seçilir, ana ekran ve bütün hub'lar onunla değişir:
 
 - **Konsol.** Bir oyun konsolu panosu: koyudan açığa inen gri zemin,
@@ -207,20 +215,42 @@ tasarımdan biri seçilir, ana ekran ve bütün hub'lar onunla değişir:
   uyku zamanlayıcısı ve televizyonun görüntü, ses, ağ, kumanda, tarih, depolama ayarlarına kısayollar. Müzik
   çalarken kumandaya iki dakika dokunulmazsa şarkı ekranı doldurur: kapağı, adı, ilerlemesi ve arkada kayan dev
   sanatçı adı; rehberden de açılır.
-- **Salon.** Oturma odası için bir medya arayüzü: solda soluk "başlat" yazısı,
+- **Salon** *(Pro)*. Oturma odası için bir medya arayüzü: solda soluk "başlat" yazısı,
   alt alta dönen kategoriler (Resimler + Videolar, Müzik, TV + Filmler, Uygulamalar, Bilgiler, Görevler), yerinden
   oynamayan cam bir kutu ve içinden kayan öğeler; program kitaplığı ve kapat penceresi. Kitaplıklarda ad sağ üstte
   büyük ve soluk, komutlar sol üstte bağlantı, seçili yol ‹ › arasında.
+- **Aura.** Telefondaki Aura, televizyonda: Aura ışıltısının üstünde solda dev ve ince harflerle hub'ların
+  adları, üstlerinde saat; yanda son kullanılanlar, televizyonun uygulamaları ve kaynakları resimleriyle. Hub'lar
+  tabletteki gibi: adı solda dikine dev harflerle, bölümleri yanında. Senin vurgu rengin, telefondaki ışıltı
+  biçimleri ve renkleri; kapat menüsünde TV'yi kapatma, uyku, uyku zamanlayıcısı ve çıkış.
+- **Vitrin** *(Pro)*. Açık, çizgili bir zeminde kanallar gibi dizilmiş kareler: sayfada dört sütun üç sıra, kenarda
+  bir sonraki sayfanın ilk sütunu. Her kanal içindekini canlı gösterir: yarıda kalan film, çalan şarkı, son
+  fotoğraf, hava, manşet, ibreleri dönen saat, uygulamaların afişleri. Seçilen kanal yerinden ekranı kaplayana
+  dek büyür ve hareketli büyük afişini oynatır; altta "Vitrin" ve "Başlat" düğmeleri çıkar, yanlara basınca komşu
+  kanallara geçilir (önizleme ayarlardan kapatılabilir). Ortadaki tuşa basılı tutunca kanal kaldırılıp başka bir
+  yere taşınır. Alttaki çubuğun ortasında saat ve tarih, solda Vitrin menüsü (ayarlar, uyku, kapatma), sağda
+  telefondan gelen aramaların ve mesajların günlere göre zarf zarf durduğu mesaj panosu. Hub'lar beyaz bir başlık
+  şeridinin altında, bölümleri yuvarlak düğmeler: ayarlar büyük beyaz düğmeler, haberlerde altta kayan manşet
+  şeridi, fotoğraflar beyaz kenarlı baskılar gibi, video oynatıcısında beyaz yuvarlak düğmeler; açık lisanslı
+  Nunito yazı tipi ve bu projede üretilen sesler.
 
-İkisinde de açılışta logo, sayfalar arasında yakınlaşma, açık lisanslı Selawik yazı tipi ve kapatılabilir gezinme
+Konsol ile Salon'da açılışta logo, sayfalar arasında yakınlaşma, açık lisanslı Selawik yazı tipi ve kapatılabilir gezinme
 sesleri var; logolar ve sesler bu projede çizildi ve üretildi. Yarıda bırakılan film
 "devam et"te, televizyonun uygulamaları kendi afişleriyle durur. Kumandanın Home tuşu, erişilebilirlik servisi
-açıksa Google TV'nin ana ekranı yerine Zeta'yı açar.
+açıksa Google TV'nin ana ekranı yerine Zeta'yı açar; televizyon açılınca ya da uykudan ana ekranında uyanınca da
+Zeta gelir.
 
 **Telefon bağlantısı.** Telefonunda Zeta kullanıyorsan onu aynı Wi-Fi'daki televizyonla eşleyebilirsin
 (televizyonda ayarlar → bağlantılar → telefon ekle, telefonda TV ekle, 6 haneli kod). Sonra telefona gelen
 aramalar, cevapsız aramalar ve mesajlar televizyonun köşesinde, açık olan her şeyin üstünde görünür. Mesajın
 metni varsayılan olarak gitmez; telefonda açılabilir. Sunucu yoktur, her şey ev ağında ve şifreli gider.
+Eşlenen telefon televizyonun kumandası da olur (yön tuşları, OK, geri, ana ekran, ses; yazdığın, televizyonda
+seçili arama kutusuna gelir), paylaş menüsündeki "TV'de aç" bir bağlantıyı (YouTube bağlantısı YouTube'da)
+ya da bir fotoğrafı televizyonda açar.
+
+**Televizyonda ayrıca:** arama kutularında yukarı tuşu televizyonun sesli aramasını açar; kaynaklar (HDMI, anten)
+karo olarak durur; rehberde uyku zamanlayıcısı ve hızlı ayarlar var; çocuk kilidi seçilen uygulamaları, kaynakları
+ve ayarları 4 haneli bir PIN'in arkasına koyar; istenmeyen uygulamalar başlangıç ekranından gizlenebilir.
 
 <p align="center">
   <img src="docs/img/tv-konsol-ana-sayfa.jpg" width="400" alt="Televizyonda Konsol panosu">
@@ -233,6 +263,9 @@ metni varsayılan olarak gitmez; telefonda açılabilir. Sunucu yoktur, her şey
 <p align="center">
   <img src="docs/img/tv-salon-baslat.jpg" width="400" alt="Televizyonda Salon başlangıcı">
   <img src="docs/img/tv-salon-bildirim.jpg" width="400" alt="Salon'da telefondan gelen mesaj">
+</p>
+<p align="center">
+  <img src="docs/img/tv-vitrin.jpg" width="400" alt="Televizyonda Vitrin kanal panosu">
 </p>
 <p align="center">
   <img src="docs/img/telefon-tv-baglantisi.png" width="200" alt="Telefonda TV bağlantısı ayarları">
@@ -255,7 +288,7 @@ Mozaik'in ayarlar dili: pivot başlıklar, ince kaydırıcılar, köşeli anahta
 
 - Zeta klavyesi ve tahmin çubuğu *(Pro)*
 - Ses çubuğundan bildirim şeridine kadar aynı arayüz *(Pro)*
-- Türkçe, İngilizce, Fransızca, Almanca, İspanyolca ve İtalyanca (klavye de: Fransızca AZERTY, Almanca QWERTZ, İspanyolca ñ ile)
+- Türkçe, İngilizce, Fransızca, Almanca, İspanyolca, İtalyanca ve Brezilya Portekizcesi (klavye de: Fransızca AZERTY, Almanca QWERTZ, İspanyolca ñ, Portekizce ç ile)
 - Bölünmüş ekran: tablette dört, telefonda iki parmakla
 
 ## Ücretsiz ve Pro
@@ -264,18 +297,20 @@ Mozaik'in ayarlar dili: pivot başlıklar, ince kaydırıcılar, köşeli anahta
 > özellikleri açıktır; deneme sorulmaz, bir şey satılmaz. Zeta Google Play'e çıkınca Pro tek seferlik
 > bir satın alma olacak. Beta'da yaptığın Pro ayarları silinmez, olduğu gibi kalır.
 
-Başlangıç ekranı, bütün hub'lar, eylem merkezi, tablet düzeni, televizyon arayüzü (iki tasarımı ve
+Başlangıç ekranı (pil, fener, zamanlayıcı, ses modu ve arama widget'ları dahil), bütün hub'lar, eylem merkezi, tablet düzeni, televizyon arayüzü (Konsol ve Aura tasarımları ile
 telefon bağlantısı dahil) ve varsayılan uygulama rolleri ücretsiz sürümde tamdır. **Pro, uygulamanın içinden tek seferlik bir satın almayla açılır** (Google Play üzerinden;
 ayarlar → hakkında → Zeta Pro, ya da kilitli herhangi bir şeye dokunarak). Bir kez alınır, aynı Google
 hesabıyla her telefonda geçerlidir; ayarların yerinde kalır. Pro şunları ekler:
 
-- **Görünüm:** vurgu renklerinin tamamı, özel duvar kağıdı, buzlu karolar, karo başına renk, ad, simge,
+- **Görünüm:** vurgu renklerinin tamamı, özel duvar kağıdı, buzlu karolar ve buzlu eylem merkezi, karo başına renk, ad, simge,
   resim, animasyon, saydamlık ve yazı rengi, hub arka planı ayarları
 - **Medya:** video oynatıcıda altyazı, ses parçası, hız, ekranı doldurma, sonraki bölüm ve küçük pencere;
   internetten şarkı sözü ve albüm kapağı
 - **Hub'lar:** sosyal hub, kilitli notlar, haberlerde kendi RSS kaynakların, tarayıcıda okuma listesine
   ekleme, PDF olarak kaydetme, çeviri ve sık kullanılanlar; başlangıca 10'dan fazla uygulama, birden çok
   hava durumu şehri
+- **Widget'lar:** dünya saati, geri sayım, yapılacaklar ve adım sayar
+- **Televizyon:** Salon ve Vitrin tasarımları
 - **Sistem:** Zeta klavyesi, ses çubuğu ve bildirim şeridi
 
 **Pro, 10 gün ücretsiz denenebilir.** Uygulama bunu bir kez sorar; istemezsen ayarlar → hakkında → Zeta
@@ -291,9 +326,9 @@ okunur, Pro ayarları silinmez, Pro'ya geçince olduğu gibi geri gelir.
 Sunucu yok. Reklam, analiz, kullanıcı hesabı yok. Kişilerin, mesajların ve fotoğrafların telefonda kalır.
 Telefondan yalnızca hava durumu, haberler, şarkı sözü ve arama önerisi istekleri çıkar (tarayıcıda reklam
 engelleme açıksa haftada bir engelleme listesi de indirilir) — o da o özelliği kullandığında ve kimliğin eklenmeden. E-posta şifreleri ve kilitli notlar cihazda şifrelenir.
-İki izin isteğe bağlıdır ve tek bir iş içindir: hassas konum yalnızca bağlı Wi-Fi ağının adını göstermek için
+Üç izin isteğe bağlıdır ve tek bir iş içindir: hassas konum yalnızca bağlı Wi-Fi ağının adını göstermek için
 (hava durumu yuvarlanmış, yaklaşık konumu kullanır), yakındaki cihazlar yalnızca bağlı Bluetooth cihazlarının
-adları için.
+adları ve pil widget'ındaki pil düzeyleri için, fiziksel etkinlik yalnızca adım widget'ının bugünkü adımları sayması için (sayı telefonda kalır).
 Telefon bağlantısı açıksa aramalar ve mesajlar yalnızca eşlediğin televizyona, ev ağının içinden ve şifreli
 gider; mesaj metni sen açmadıkça gitmez.
 Ayrıntılar: [PRIVACY.md](PRIVACY.md) · [English](PRIVACY.en.md) · [web](https://serkantkn.github.io/Zeta/gizlilik.html).
@@ -351,16 +386,25 @@ Start, messages, music and the TV all speak one language, and the phone link let
   below — apps under their letters in columns, scrolling sideways, ordered by name, install date or use, with
   the app bar on a hold. Pulling the board past its first group opens the social hub.
 - **Television.** On Android TV and Google TV the launcher is worked with the remote, with the hubs that make
-  sense on a TV: music + videos with the player, pictures, weather, news, clock, files and settings. Two designs,
+  sense on a TV: music + videos with the player, pictures, weather, news, clock, files and settings. Four designs,
   chosen in settings → look → TV design, Start and every hub with them: **Console**, a games
   console's dashboard - a grey ground, lower-case sections along the top, blocks of
   green tiles, the one the remote is on lifted, the neighbours peeking in at the edges, the button legend at the
-  bottom left - or **Lounge**, a living-room media interface, its categories turning through a fixed pane of glass. Both
+  bottom left - or **Lounge** *(Pro)*, a living-room media interface, its categories turning through a fixed pane of glass in one of seven colours - or **Aura**, the phone's own:
+  the hubs as huge light words on Aura's glow, the things opened lately, the TV's apps and inputs beside them, each hub's
+  name huge and turned on its side, in the user's accent colour - or **Showcase** *(Pro)*, a board of channels on a pale lined ground, each showing what it holds,
+  opening into a large moving preview before it starts, the clock in the bar along the foot and a message board for
+  the phone's calls and messages, in the open Nunito type. Console and Lounge
   have a logo at launch, a zoom between pages, the open Selawik type and navigation sounds made here
   that can be turned off. A film left part way waits under "continue"; the remote's Home button opens Zeta
-  through an accessibility service. **The phone link** pairs a phone running Zeta with a TV on the same
+  through an accessibility service, and Zeta comes up when the TV is turned on or wakes on its home screen. **The phone link** pairs a phone running Zeta with a TV on the same
   Wi-Fi by a six-digit code; calls, missed calls and messages then show in the TV's corner over whatever is
   on. The message text stays on the phone unless you allow it; no server, encrypted, on your own network.
+  The paired phone is also the TV's remote (arrows, OK, back, home, volume, and typing into the TV's search box),
+  and "Open on TV" in the share sheet opens a link (a YouTube link in YouTube) or a picture on the TV. On the TV,
+  up from a search box searches by voice; inputs (HDMI, aerial) are tiles; the guide has a sleep timer and quick
+  settings; a child lock keeps chosen apps, inputs and the settings behind a four-digit PIN; unwanted apps can be
+  hidden from Start.
 - **Action center.** A pull from the status bar brings down the action center instead of
   Android's shade: quick actions, a thin brightness slider, the music playing, and notifications grouped by
   app — the launcher's own by hub — to open, swipe away or answer in place. On a tablet it is a column from
@@ -390,13 +434,15 @@ Start, messages, music and the TV all speak one language, and the phone link let
 - **Pro is free during the beta.** While Zeta is in beta every Pro feature is on in the build from GitHub: no trial
   is asked for and nothing is for sale. Once Zeta is on Google Play, Pro will be a one-time purchase; what you
   set up in the beta stays as it is.
-- **Free and Pro.** Start, every hub, the action center, the tablet layout, the TV interface (both designs and
-  the phone link) and the default-app roles are whole in the free edition. Pro is one purchase inside the app, through Google Play (settings → about → Zeta
+- **Languages.** Turkish, English, French, German, Spanish, Italian and Brazilian Portuguese, the keyboard with
+  each one's own word suggestions. With the battery saver on, the blur and the animations rest by themselves.
+- **Free and Pro.** Start, every hub, the action center, the tablet layout, the TV interface (the Console and Aura designs
+  and the phone link) and the default-app roles are whole in the free edition. Pro is one purchase inside the app, through Google Play (settings → about → Zeta
   Pro, or touch anything locked); bought once, it holds on every phone signed in to the same Google account.
   Pro adds all accent colours, custom wallpaper, frosted tiles, each tile's own look,
   the hubs' background settings, the video player's subtitles, sound tracks, speed, fill, next episode and
   small window, online lyrics and covers, the social hub, locked notes, the news hub's own RSS sources, the
-  browser's reading list, PDF, translation and favourites, Zeta's keyboard, volume bar and banners.
+  browser's reading list, PDF, translation and favourites, the TV's Lounge and Showcase designs, Zeta's keyboard, volume bar and banners.
   Pro can be tried free for 10 days: the app asks once, and settings → about → Zeta Pro starts it later.
   When it ends, Pro's features close, and what was set in Pro waits, untouched, for Pro to be bought. The
   trial is taken once; clearing the app's data does not start it again.
@@ -414,4 +460,4 @@ Start, messages, music and the TV all speak one language, and the phone link let
 **Download** the APK from [Releases](https://github.com/serkantkn/Zeta/releases) (Android 9 or later; the
 same file runs on phones, tablets and Android TV / Google TV) and report bugs or ideas in
 [issues](https://github.com/serkantkn/Zeta/issues). Written in Kotlin, all of the UI in Jetpack Compose.
-**Zeta is closed source** and free to use; only [`hubkit/`](hubkit/) (ZetaHubKit) is open, under the Apache License 2.0. Tile glyphs are Microsoft's Fluent UI System Icons (MIT). The keyboard's word lists are adapted from FrequencyWords (CC BY-SA 4.0) and Tatoeba (CC BY 2.0 FR). The offensive-word filter draws on LDNOOBW (CC BY 4.0).
+**Zeta is closed source** and free to use; only [`hubkit/`](hubkit/) (ZetaHubKit) is open, under the Apache License 2.0. Tile glyphs are Microsoft's Fluent UI System Icons (MIT); the TV designs use the Selawik and Nunito typefaces (SIL OFL 1.1). The keyboard's word lists are adapted from FrequencyWords (CC BY-SA 4.0) and Tatoeba (CC BY 2.0 FR). The offensive-word filter draws on LDNOOBW (CC BY 4.0).

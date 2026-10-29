@@ -1,6 +1,6 @@
 # Zeta — Privacy Policy
 
-Last updated: 20 October 2026 · Version 1.4
+Last updated: 28 October 2026 · Version 1.7
 
 ## In short
 
@@ -30,7 +30,8 @@ that needs it is used; refuse one and that part stops working, the rest carries 
 | Installed apps and usage stats | The app list, and which apps you use most |
 | What you type on the keyboard | Word prediction and correction |
 | Precise location *(optional)* | Only to show the name of the Wi-Fi network you are on, in settings → connections: Android gives a network's name only to apps holding this. Your position is not read with it; the weather uses a rounded, approximate one. A website you allow location in the browser may get it precisely, as in any browser. |
-| Nearby devices *(optional)* | Only to show the names of the Bluetooth devices connected now, in settings → connections. Nothing is scanned for, paired or connected. |
+| Nearby devices *(optional)* | Only to show the Bluetooth devices connected now: their names in settings → connections, and their names and battery levels on the battery widget. Nothing is scanned for, paired or connected, and none of it leaves the phone. |
+| Physical activity *(optional)* | Only for the steps widget on Start: today's step count is read from the phone's step counter. The count and its day are kept on the phone and sent nowhere; no other activity data is read. |
 
 About the keyboard in particular: **nothing is learned from password fields**, the "do not
 learn from this" flag apps set (private browsing, one-time codes) is honoured, and a clip a
@@ -91,6 +92,10 @@ corner of the screen. Nothing is sent unless you pair the two.
   itself; otherwise it reads them from your phone and messaging apps' notifications (this needs
   notification access). Messages from other apps such as WhatsApp are, if you choose, read from
   their notifications too.
+- **What you send yourself:** when you use the phone as the TV's remote, or "Open on TV" in the
+  share sheet, the keys you press, the words you type, the link or the picture you share go to the
+  paired TV the same way - directly, encrypted, over your local network. The TV does what they ask
+  and keeps nothing: a picture is held only until another one comes.
 - **On the TV:** a notice is only shown, disappears after a few seconds and is not stored. The
   TV keeps only the names and keys of the phones paired with it.
 - **Turning it off:** on the phone, settings → connections → TV link turns each kind off, or all
@@ -98,8 +103,10 @@ corner of the screen. Nothing is sent unless you pair the two.
 
 ## On a television
 
-If you turn on the accessibility service on a TV, it is used for three things only: catching the
-remote's Home button, opening the TV's power menu or putting it to sleep when you choose that in
+If you turn on the accessibility service on a TV, it is used for five things only: pressing the keys and
+typing the words a phone you paired sends (into the text field selected on the TV, and nowhere else); catching
+the remote's Home button; for a few seconds after the TV is turned on or wakes, seeing which app is in front
+(its name alone) so Zeta can open in place of the TV's own home screen; opening the TV's power menu or putting it to sleep when you choose that in
 the TV interface's shutdown panel, and showing a paired phone's notice over other apps. Nothing on
 the screen is read, and nothing is recorded or sent.
 
