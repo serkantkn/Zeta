@@ -1,6 +1,6 @@
 # Zeta — Privacy Policy
 
-Last updated: 29 October 2026 · Version 1.8
+Last updated: 7 November 2026 · Version 1.10
 
 ## In short
 
@@ -32,6 +32,10 @@ that needs it is used; refuse one and that part stops working, the rest carries 
 | Precise location *(optional)* | Only to show the name of the Wi-Fi network you are on, in settings → connections: Android gives a network's name only to apps holding this. Your position is not read with it; the weather uses a rounded, approximate one. A website you allow location in the browser may get it precisely, as in any browser. |
 | Nearby devices *(optional)* | Only to show the Bluetooth devices connected now: their names in settings → connections, and their names and battery levels on the battery widget. Nothing is scanned for, paired or connected, and none of it leaves the phone. |
 | Physical activity *(optional)* | Only for the steps widget on Start: today's step count is read from the phone's step counter. The count and its day are kept on the phone and sent nowhere; no other activity data is read. |
+| TV listings *(optional, on a TV only)* | Only so that Start on a TV can show what you left part way in your other apps and the rows of picks those apps keep: what the apps wrote to the TV's own listings (the name, the episode, where you stopped, when you last watched it, the address of its picture, what opens it and the name of the row) is read. It is asked for once on Start, saying what it is for, and can be given later in settings → system. What is read stays on the TV and is sent nowhere. It is never asked for on a phone. |
+| Open apps *(optional, through Shizuku)* | Only so that the screen of what is open can show the phone's other open apps too: if you install Shizuku and let Zeta use it, Android's list of recent apps (which apps are open) and the small screenshot the system keeps of each are read; an app you close there is taken off the list. The pictures stay in memory only while that screen is open; they are not saved and are sent nowhere. |
+| Accessibility service *(optional)* | If you turn it on in settings: to see the volume keys for Zeta's volume bar; with the action center on, to find the status bar from the kind of windows on screen and to tell that Android's notification shade has opened from the system interface's window name; with "in place of recents" chosen, to see only the app and class name of the window that comes forward. The text of other apps' screens is not read; nothing is kept or sent. |
+| Reading aloud | When you have a note, a news story or a web page read aloud, its text is given to the text-to-speech engine chosen on your phone; Zeta sends it nowhere else. What the engine does with it is up to its own terms. |
 
 About the keyboard in particular: **nothing is learned from password fields**, the "do not
 learn from this" flag apps set (private browsing, one-time codes) is honoured, and a clip a
@@ -73,6 +77,9 @@ If blocking is on in the browser, Steven Black's open blocklist is downloaded on
 Sites you visit are between you and them. The app does not sit in the middle and does not
 report anywhere. With blocking on, the requests pages make to advertising and tracking servers are stopped on the phone. The icons on the start page's site tiles are asked of Google's icon service by the site's name. "Translate page" opens the page through Google Translate.
 
+**Other apps' pictures on a TV — the addresses those apps gave**
+Only if you let the TV's listings be read. When Start shows other apps' rows, each one's picture is asked of the address its app wrote to the listings (usually the app's own server). Only the picture is asked for; nothing about you is sent.
+
 ## Between your phone and your TV (the phone link)
 
 Zeta also runs on a television. If you pair your phone with a TV on the same Wi-Fi
@@ -109,6 +116,22 @@ the remote's Home button; for a few seconds after the TV is turned on or wakes, 
 (its name alone) so Zeta can open in place of the TV's own home screen; opening the TV's power menu or putting it to sleep when you choose that in
 the TV interface's shutdown panel, and showing a paired phone's notice over other apps. Nothing on
 the screen is read, and nothing is recorded or sent.
+
+**What you watch in other apps.** If you let it read the TV's listings (asked once on Start; later in
+settings → system → your apps on the home screen), Zeta reads other apps' "continue watching" rows and
+rows of picks from the TV's own listings - only those the apps left open to be read. They stay on the
+TV and are sent nowhere; rows of apps you hid or put behind the child lock are not shown. As the TV's
+own home screen does, Zeta also asks the apps to write their rows there.
+
+**Your own videos on the TV's list** *(optional, off by default)*. If you turn on "put my videos in the
+TV's continue watching" in settings → system, the name of each video left part way in Zeta's player,
+where you stopped, its length, when you left it and a frame from where you stopped are written to the
+TV's continue watching. The video's address on the phone or a drive is not written; the row opens it by an
+id only Zeta knows. There the TV's home screens, and other apps you let read the TV's listings, can read
+and show the name and where you stopped; the frame is lent only to home screens that may read the TV's
+listings. What they do with them is governed by their own privacy terms. Zeta sends them nowhere, and
+turning the switch off takes what it wrote off the list. If you clear Zeta's data the rows go the next
+time Zeta runs; if you uninstall Zeta they go at once.
 
 ## Where it is kept
 

@@ -1,6 +1,6 @@
 # Zeta — Gizlilik Politikası
 
-Son güncelleme: 29 Ekim 2026 · Sürüm 1.8
+Son güncelleme: 7 Kasım 2026 · Sürüm 1.10
 
 ## Kısaca
 
@@ -33,6 +33,10 @@ eder.
 | Hassas konum *(isteğe bağlı)* | Yalnızca ayarlar → bağlantılar'da bağlı olduğunuz Wi-Fi ağının adını göstermek için: Android ağ adını yalnızca bu izni olan uygulamalara verir. Konumunuz bu izinle okunmaz; hava durumu yuvarlanmış, yaklaşık konumu kullanır. Tarayıcıda konum izni verdiğiniz siteler, her tarayıcıda olduğu gibi, konumu hassas olarak alabilir. |
 | Yakındaki cihazlar *(isteğe bağlı)* | Yalnızca şu an bağlı Bluetooth cihazlarının adlarını ayarlar → bağlantılar'da, adlarını ve pil düzeylerini de pil widget'ında göstermek için. Cihaz aranmaz, eşleştirilmez, bağlanılmaz; bu bilgiler telefondan çıkmaz. |
 | Fiziksel etkinlik *(isteğe bağlı)* | Yalnızca başlangıçtaki adım widget'ı için: telefonun adım sayacından bugünkü adım sayısı okunur. Sayı ve günü telefonda saklanır, hiçbir yere gönderilmez; başka bir etkinlik bilgisi okunmaz. |
+| TV listeleri *(isteğe bağlı, yalnızca televizyonda)* | Yalnızca televizyonda ana ekranın, öteki uygulamalarda yarım bıraktıklarınızı ve o uygulamaların öneri satırlarını göstermesi için: uygulamaların televizyonun kendi listelerine yazdıkları (adı, bölümü, nerede kaldığınız, en son ne zaman izlediğiniz, resminin adresi, neyin açılacağı ve satırın adı) okunur. Başlangıç ekranında bir kez, ne için olduğu anlatılarak sorulur; sonra ayarlar → sistem'den verilir. Okunanlar televizyonda kalır, hiçbir yere gönderilmez. Telefonda istenmez. |
+| Açık uygulamalar *(isteğe bağlı, Shizuku ile)* | Yalnızca açık olanlar ekranının telefonun öteki açık uygulamalarını da göstermesi için: Shizuku'yu kurup Zeta'nın kullanmasına izin verirseniz Android'in son uygulamalar listesi (hangi uygulamalar açık) ve sistemin her birinden sakladığı küçük ekran görüntüsü okunur; oradan kapattığınız uygulama listeden çıkarılır. Görüntüler yalnızca o ekran açıkken bellekte durur; kaydedilmez, hiçbir yere gönderilmez. |
+| Erişilebilirlik servisi *(isteğe bağlı)* | Ayarlardan açarsanız: ses tuşlarını Zeta'nın ses çubuğu için; eylem merkezi açıksa durum çubuğunun yerini pencerelerin türünden ve Android bildirim panelinin açıldığını sistem arayüzünün pencere adından anlamak için; "son uygulamalar yerine" seçiliyse öne gelen pencerenin yalnızca uygulama ve sınıf adını görmek için kullanılır. Diğer uygulamaların ekranındaki yazılar okunmaz, hiçbir şey kaydedilmez, gönderilmez. |
+| Sesli okuma | Bir notu, haberi ya da web sayfasını sesli okuttuğunuzda metin telefonunuzda seçili metin okuma motoruna verilir; Zeta onu başka bir yere göndermez. Motorun metinle ne yaptığı kendi koşullarına bağlıdır. |
 
 Klavye hakkında ayrıca: **şifre alanlarında hiçbir şey öğrenilmez**, uygulamanın "bunu
 öğrenme" bayrağı (gizli sekmeler, tek kullanımlık kodlar) dinlenir ve şifre yöneticisinin
@@ -76,6 +80,9 @@ Tarayıcıda engelleme açıksa, Steven Black'in açık engelleme listesi bir ke
 Ziyaret ettiğiniz siteler doğrudan sizinle o site arasındadır; uygulama araya girmez, bir
 yere bildirmez. Engelleme açıksa, sayfaların reklam ve izleyici sunucularına yaptığı istekler telefonda durdurulur. Başlangıç sayfasındaki site karolarının simgeleri Google'ın simge servisinden site adıyla istenir. "Sayfayı çevir" seçildiğinde sayfa Google Çeviri üzerinden açılır.
 
+**Televizyonda öteki uygulamaların resimleri — o uygulamaların verdiği adresler**
+Yalnızca TV listelerini okumaya izin verdiyseniz. Ana ekranda öteki uygulamaların satırları gösterilirken her birinin resmi, uygulamanın listeye yazdığı adresten (çoğunlukla uygulamanın kendi sunucusundan) istenir. Yalnızca resim istenir; sizinle ilgili hiçbir şey gönderilmez.
+
 ## Telefon ile televizyon arasında (telefon bağlantısı)
 
 Zeta televizyonda da çalışır. Telefonunuzu aynı Wi-Fi ağındaki bir televizyonla
@@ -112,6 +119,23 @@ tuşunu yakalamak; televizyon açıldıktan ya da uykudan uyandıktan sonraki bi
 televizyonun kendi ana ekranı yerine açılabilmesi için öndeki uygulamanın yalnızca adına bakmak; televizyon arayüzünün "kapat" penceresinde seçtiğinizde televizyonu kapatma
 menüsünü açmak ya da uyutmak ve eşlediğiniz telefonun bildirimini diğer uygulamaların üstünde
 göstermek. Ekrandaki yazılar okunmaz, hiçbir şey kaydedilmez ve gönderilmez.
+
+**Öteki uygulamalarda izledikleriniz.** TV listelerini okumaya izin verirseniz (başlangıç ekranında bir
+kez sorulur; sonra ayarlar → sistem → ana ekranda uygulamaların), Zeta televizyonun kendi listelerinden
+öteki uygulamaların "izlemeye devam et" satırlarını ve öneri satırlarını okur: yalnızca o uygulamaların
+okunmaya açık bıraktıklarını. Bunlar televizyonda kalır, hiçbir yere gönderilmez; gizlediğiniz ya da
+çocuk kilidine koyduğunuz uygulamaların satırları gösterilmez. Zeta, televizyonun kendi ana ekranının
+yaptığı gibi, uygulamalardan satırlarını o listeye yazmalarını da ister.
+
+**Kendi videolarınız televizyonun listesinde** *(isteğe bağlı, kapalı gelir)*. Ayarlar → sistem'de
+"videolarımı televizyonun izlemeye devam et listesine koy"u açarsanız, Zeta'nın oynatıcısında yarım kalan
+videolarınızın adı, nerede kaldığınız, süresi, ne zaman bıraktığınız ve kaldığınız yerden bir kare
+televizyonun izlemeye devam et listesine yazılır. Videonun telefondaki ya da diskteki adresi yazılmaz; satır
+onu yalnızca Zeta'nın tanıdığı bir kimlikle açar. Orada televizyonun ana ekranları ve TV listelerini
+okumasına izin verdiğiniz öteki uygulamalar adı ve nerede kaldığınızı okuyup gösterebilir; kare yalnızca
+TV listelerini okuyabilen ana ekranlara açılır. Ne yaptıkları kendi gizlilik koşullarına bağlıdır. Zeta
+bunları hiçbir yere göndermez; anahtarı kapatınca yazdıklarını listeden kaldırır. Zeta'nın verilerini
+silerseniz bu satırlar Zeta bir sonraki açılışında, Zeta'yı kaldırırsanız hemen silinir.
 
 ## Nerede ve nasıl saklanır
 

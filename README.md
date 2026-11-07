@@ -47,11 +47,11 @@ telefonlarında çalışıyor — ve hiçbir şeyi hiçbir yere göndermiyor.
 - **Canlı karolar.** Saat, takvim, mesajlar, kişiler, hava durumu, haberler ve müzik karoları kendiliğinden döner;
   kaydırma ya da çevirme hareketi seçilir, karo başına da ayarlanabilir.
 - **Dört boyut.** Küçük, orta, geniş, büyük. Her canlı karo her boyut için ayrı düzenlenmiş; bildirim sayısı
-  simgenin hemen yanında. Sürükle, sırala, üst üste bırakıp klasör yap.
+  simgenin hemen yanında, istenirse sağ üst ya da sağ alt köşede. Sürükle, sırala, üst üste bırakıp klasör yap.
 - **Buzlu karolar** *(Pro)*. Saydam karoların arkasındaki duvar kağıdı buzlu cam gibi bulanıklaşabilir; ne kadar,
   ayarlardan.
 - **Widget'lar.** Pil, fener, zamanlayıcı, ses modu ve arama; *(Pro)* dünya saati, geri sayım, notlardan bir
-  yapılacaklar listesi ve günlük adım. Mozaik'te ve Panorama'da karo, Aura'da karolar sayfasında durur; dört boyutun
+  yapılacaklar listesi ve günlük adım. Mozaik'te ve Panorama'da karo, Aura'da tablette listenin yanında durur; dört boyutun
   her biri için ayrı düzenlenmiş; sayaçlar Aura'nın saati gibi hane hane döner, pil widget'ı geniş
   boyutta iki, büyükte dört cihazı (telefon ve bağlı kulaklık, saat, klavye…) adlarıyla gösterir. Müzik karosu çalan uygulamayı (Spotify da olur) karodan yönetir, takvimin büyük
   karosu ayı gösterir.
@@ -60,9 +60,31 @@ telefonlarında çalışıyor — ve hiçbir şeyi hiçbir yere göndermiyor.
   simge boyutu, karoyu dolduran resim, animasyon, bildirim, şeffaflık ve yazı rengi — hepsi tek karo için,
   tek dokunuşla sıfırlanabilir.
 - **Hub yerine uygulama.** İstersen "internet" karosu Chrome'u açsın; her hub istediğin uygulamaya yönlendirilebilir.
-- **Üç düzen.** Mozaik (canlı karolar), Aura (dev yazılı hub listesi) ya da tablette Panorama (yatay pano).
-- **Çalışan hub'lar.** Home tuşuyla çıktığın hub arka planda kalır; panonun altında, Home'a çift basınca
-  açılan görev değiştiricide ya da iki parmakla yukarı çekince bölünen ekranda geri gelir.
+- **Dört düzen.** Mozaik (canlı karolar), Aura (dev yazılı hub listesi), tablette Panorama (yatay pano) ya da
+  **Paper** *(Pro)*: Mozaik, renkli bir e-kitap okuyucu gibi. Düz bir sayfa (kâğıt, beyaz, sepya, gri ya da siyah
+  zeminde beyaz mürekkeple gece), Literata yazı tipinde mürekkep yazı, yumuşak renkli ve ince çerçeveli karolar;
+  animasyon yok, hiçbir şey parmağı izlemez: e-kitap okuyucudaki gibi kaydırınca ya da alttaki oklarla bir
+  seferde tam bir sayfa çevrilir, altta "2 / 7" sayfa sayısı durur, istersen ses tuşları da sayfa çevirir;
+  dokunulan şey bir an mürekkebe döner. Sayfa değişince ekran e-mürekkep gibi
+  kısa bir siyah-beyaz çakmayla yenilenir (her sayfada, 6 sayfada bir ya da hiç); istersen önceki sayfanın soluk izi
+  bir an kalır. Tablette başlangıç çift sayfadır: solda karolar, sağda bugün, son açılanlar ve çalan şarkı. Tüm
+  hub'lar, diyaloglar, eylem merkezi, ses çubuğu, bildirim şeridi ve klavye de Paper'a göre giyinir.
+- **Açık olanlar.** Home tuşuyla çıktığın hub arka planda kalır. Home'a çift basınca açık olanlar gelir: her
+  hub ve uygulama ekran biçiminde bir kart, yan yana; dokun aç, çarpıyla ya da yukarı fırlatarak kapat
+  (istersen eskisi gibi alttaki şerit). Shizuku kuruluysa telefonun öteki açık uygulamaları da ekran
+  görüntüleriyle burada; deneysel olarak telefonun son uygulamalar ekranının yerine de geçer. İki parmakla
+  yukarı çekince ekran bölünür.
+- **Hareket ayarları.** Açılış animasyonu (döner kapı, kayma, yakınlaşma, solma ya da hiç), her hareketin hızı,
+  geri dönerken hareket, daha erken açılma ve karoların ne kadar eğileceği.
+
+<p align="center">
+  <img src="docs/img/paper.png" width="180" alt="Paper: başlangıç ekranı">
+  <img src="docs/img/paper-hava.png" width="180" alt="Paper: hava durumu">
+  <img src="docs/img/paper-gece.png" width="180" alt="Paper: gece">
+</p>
+<p align="center">
+  <img src="docs/img/paper-tablet.jpg" width="560" alt="Paper: tablette çift sayfa">
+</p>
 
 <p align="center">
   <img src="docs/img/baslangic-magenta.png" width="150" alt="Magenta">
@@ -86,8 +108,8 @@ Başlangıç ekranının ikinci yüzü, kelimelerden bir hub listesi:
   kelimeler olarak; uzun listelerde harf atlayıcı.
 - **Quickplay.** Listenin içinde bir şerit: son çalınanlar, sabitlediklerin ve yeni gelenler; tablette sağda
   hep açık.
-- **Karolar da burada.** Sabitlediğin uygulamalar ayrı bir sayfada Mozaik karoları olarak durur; iki
-  düzen aynı anda kullanılabilir.
+- **Tablette karolar da burada.** Sabitlediğin uygulamalar listenin yanında Mozaik karoları olarak durur;
+  iki düzen aynı anda kullanılabilir.
 
 ## Hub'lar
 
@@ -99,11 +121,12 @@ Hepsi uygulamanın içinde, hepsi aynı dilde yazılmış:
 | **mesajlar** | SMS ve MMS (resimli mesaj gönderme ve alma), konuşmada arama, teslim raporları, konuşma sabitleme, hızlı yanıt |
 | **kişiler** | tek dev başlık altında bir panorama: tümü, yeni neler, son kullanılanlar; gruplar, mükerrer kayıt birleştirme, kişi karoları |
 | **fotoğraflar** | film rulosu, albümler, video, düzenleyici, favoriler |
-| **müzik + videolar** | yerel kitaplık, çalma listeleri, şarkı sözleri, albüm kapakları; telefondaki videolar ve kendi video oynatıcısı |
-| **internet** | sekmeler, yer imleri, okuma görünümü ve okuma listesi, reklam ve izleyici engelleme, gizli gezinme |
+| **müzik + videolar** | yerel kitaplık, çalma listeleri, şarkı sözleri, albüm kapakları, sıradaki şarkı, uyku zamanlayıcısı; telefondaki videolar ve kendi video oynatıcısı |
+| **internet** | sekmeler, yer imleri, okuma görünümü ve okuma listesi, sesli okuma, reklam ve izleyici engelleme, gizli gezinme |
 | **haberler** | Google Haberler'in konuları ve takip ettiğin sitelerin RSS akışları; özet, sonra sitenin kendi sayfası |
 | **e-posta** | IMAP/SMTP, birden çok hesap; Gmail, Outlook ve Yandex için hazır ayarlar (Gmail uygulama şifresiyle) |
-| **notlar** | kontrol listeleri, resim ve ses, kilitli notlar *(Pro)* |
+| **notlar** | kontrol listeleri, resim ve ses, sesli okuma, kilitli notlar *(Pro)* |
+| **kitaplar** | okunanlar, kitaplık ve yazarlar; EPUB'lar kendi okuyucusunda sayfa sayfa (içindekiler, yazı boyutu, sesli okuma, geniş ekranda yan yana iki sayfa), PDF'ler dosyaların görüntüleyicisinde; kalınan yer saklanır |
 | **dosyalar** | klasörler karo olarak; kopyala · taşı · yapıştır · yeniden adlandır · sil · ayrıntılar, sürükleyerek üst klasöre taşı; metin, resim, ses, video ve PDF'i kendi açar; buluttaki dosyalar telefonun kendi seçicisiyle (Google Drive, OneDrive, Dropbox…) |
 | **sosyal** | seçtiğin uygulamaların mesajları tek akışta *(Pro)* |
 | **saat · takvim · hava durumu · hesap makinesi · kamera** | her biri kendi canlı karosuyla |
@@ -156,7 +179,8 @@ kaydır sil, mesajlara yerinde yanıt ver. Başlatıcının kendi bildirimleri e
 hub'ına göre ayrılır. Hızlı eylemler panelin içinde düzenlenir: bir kareye basılı tut ya da "düzenle"ye dokun,
 sürükleyerek sırala, ✕ ile kaldır, yenilerini ekle (erişim noktası, koyu mod, göz koruma, alarmlar, kamera,
 hesap makinesi, notlar ve diğerleri). Panelin saydamlığı ve *(Pro)* arkasının bulanıklığı da orada, değiştikçe
-görünerek ayarlanır. Tablette sağ kenardan bir sütun olarak gelir. Bir erişilebilirlik servisiyle çalışır;
+görünerek ayarlanır. Başlıktaki zil Android'in kendi bildirim panelini açar. Sessiz bildirimler açık gelir;
+temizlenen bildirim söner, alttakiler yerine kayar. Tablette sağ kenardan bir sütun olarak gelir. Bir erişilebilirlik servisiyle çalışır;
 kilit ekranında Android'in kendi paneli kalır, böylece bildirimler kilitliyken görünmez.
 
 <p align="center">
@@ -240,6 +264,15 @@ sesleri var; logolar ve sesler bu projede çizildi ve üretildi. Yarıda bırak�
 açıksa Google TV'nin ana ekranı yerine Zeta'yı açar; televizyon açılınca ya da uykudan ana ekranında uyanınca da
 Zeta gelir.
 
+**Uygulamalarında yarım bıraktıkların.** TV listelerini okumasına izin verirsen (başlangıç ekranında bir kez
+sorulur, sonra ayarlar → sistem'de), öteki uygulamalarda yarım bıraktığın filmler ve bölümler, nerede kaldığınla
+birlikte, ve o uygulamaların öneri satırları da ana ekrana gelir: Konsol'da tv + filmler'in alt sırasında ve
+"uygulamalarından" bölümünde, Salon'da TV + Filmler'de ve her uygulamanın kendi şeridinde, Aura'da ilk hızlı
+satırda ve uygulama başına bir satırda, Vitrin'de devam et kanalında ve uygulamaların kanallarında. Ücretsizdir;
+okunanlar televizyonda kalır, seçtiğin şey kendi uygulamasında açılır, çocuk kilidi ve gizlenen uygulamalar burada
+da geçerlidir. İstersen Zeta'nın oynatıcısında yarım kalan videolar da televizyonun izlemeye devam et listesine
+konur (kapalı gelir).
+
 **Telefon bağlantısı.** Telefonunda Zeta kullanıyorsan onu aynı Wi-Fi'daki televizyonla eşleyebilirsin
 (televizyonda ayarlar → bağlantılar → telefon ekle, telefonda TV ekle, 6 haneli kod). Sonra telefona gelen
 aramalar, cevapsız aramalar ve mesajlar televizyonun köşesinde, açık olan her şeyin üstünde görünür. Mesajın
@@ -288,7 +321,7 @@ Mozaik'in ayarlar dili: pivot başlıklar, ince kaydırıcılar, köşeli anahta
 
 - Zeta klavyesi ve tahmin çubuğu *(Pro)*
 - Ses çubuğundan bildirim şeridine kadar aynı arayüz *(Pro)*
-- Türkçe, İngilizce, Fransızca, Almanca, İspanyolca, İtalyanca ve Brezilya Portekizcesi (klavye de: Fransızca AZERTY, Almanca QWERTZ, İspanyolca ñ, Portekizce ç ile)
+- Türkçe, İngilizce, Fransızca, Almanca, İspanyolca, İtalyanca ve Brezilya Portekizcesi (klavye de: tanıdık on tuşlu düzen; Türkçede ç, ğ, ı, ö, ş, ü basılı tutunca gelir, düz yazılınca da otomatik düzeltme koyar; Fransızca AZERTY, Almanca QWERTZ, İspanyolca ñ, Portekizce ç ile)
 - Bölünmüş ekran: tablette dört, telefonda iki parmakla
 
 ## Ücretsiz ve Pro
@@ -297,12 +330,12 @@ Mozaik'in ayarlar dili: pivot başlıklar, ince kaydırıcılar, köşeli anahta
 > özellikleri açıktır; deneme sorulmaz, bir şey satılmaz. Zeta Google Play'e çıkınca Pro tek seferlik
 > bir satın alma olacak. Beta'da yaptığın Pro ayarları silinmez, olduğu gibi kalır.
 
-Başlangıç ekranı (pil, fener, zamanlayıcı, ses modu ve arama widget'ları dahil), bütün hub'lar, eylem merkezi, tablet düzeni, televizyon arayüzü (Konsol ve Aura tasarımları ile
-telefon bağlantısı dahil) ve varsayılan uygulama rolleri ücretsiz sürümde tamdır. **Pro, uygulamanın içinden tek seferlik bir satın almayla açılır** (Google Play üzerinden;
+Başlangıç ekranı (pil, fener, zamanlayıcı, ses modu ve arama widget'ları dahil), bütün hub'lar, eylem merkezi, tablet düzeni, televizyon arayüzü (Konsol ve Aura tasarımları,
+uygulamalarında yarım bıraktıkların ve telefon bağlantısı dahil) ve varsayılan uygulama rolleri ücretsiz sürümde tamdır. **Pro, uygulamanın içinden tek seferlik bir satın almayla açılır** (Google Play üzerinden;
 ayarlar → hakkında → Zeta Pro, ya da kilitli herhangi bir şeye dokunarak). Bir kez alınır, aynı Google
 hesabıyla her telefonda geçerlidir; ayarların yerinde kalır. Pro şunları ekler:
 
-- **Görünüm:** vurgu renklerinin tamamı, özel duvar kağıdı, buzlu karolar ve buzlu eylem merkezi, karo başına renk, ad, simge,
+- **Görünüm:** Paper tasarımı, vurgu renklerinin tamamı, özel duvar kağıdı, buzlu karolar ve buzlu eylem merkezi, karo başına renk, ad, simge,
   resim, animasyon, saydamlık ve yazı rengi, hub arka planı ayarları
 - **Medya:** video oynatıcıda altyazı, ses parçası, hız, ekranı doldurma, sonraki bölüm ve küçük pencere;
   internetten şarkı sözü ve albüm kapağı
@@ -326,9 +359,13 @@ okunur, Pro ayarları silinmez, Pro'ya geçince olduğu gibi geri gelir.
 Sunucu yok. Uygulamada reklam, analiz, kullanıcı hesabı yok. Kişilerin, mesajların ve fotoğrafların telefonda kalır.
 Telefondan yalnızca hava durumu, haberler, şarkı sözü ve arama önerisi istekleri çıkar (tarayıcıda reklam
 engelleme açıksa haftada bir engelleme listesi de indirilir) — o da o özelliği kullandığında ve kimliğin eklenmeden. E-posta şifreleri ve kilitli notlar cihazda şifrelenir.
-Üç izin isteğe bağlıdır ve tek bir iş içindir: hassas konum yalnızca bağlı Wi-Fi ağının adını göstermek için
+Dört izin isteğe bağlıdır ve tek bir iş içindir: hassas konum yalnızca bağlı Wi-Fi ağının adını göstermek için
 (hava durumu yuvarlanmış, yaklaşık konumu kullanır), yakındaki cihazlar yalnızca bağlı Bluetooth cihazlarının
-adları ve pil widget'ındaki pil düzeyleri için, fiziksel etkinlik yalnızca adım widget'ının bugünkü adımları sayması için (sayı telefonda kalır).
+adları ve pil widget'ındaki pil düzeyleri için, fiziksel etkinlik yalnızca adım widget'ının bugünkü adımları sayması için (sayı telefonda kalır),
+TV listeleri yalnızca televizyonda, öteki uygulamalarda yarım bıraktıklarını ve onların öneri satırlarını ana ekranda
+göstermek için (okunanlar televizyonda kalır; resimleri o uygulamaların verdiği adreslerden gelir). İstersen
+oynatıcıda yarım kalan videoların adı ve bir karesi televizyonun izlemeye devam et listesine yazılır; orada
+televizyonun ana ekranları da görür.
 Telefon bağlantısı açıksa aramalar ve mesajlar yalnızca eşlediğin televizyona, ev ağının içinden ve şifreli
 gider; mesaj metni sen açmadıkça gitmez.
 Ayrıntılar: [PRIVACY.md](PRIVACY.md) · [English](PRIVACY.en.md) · [web](https://serkantkn.github.io/Zeta/gizlilik.html).
@@ -375,13 +412,13 @@ Start, messages, music and the TV all speak one language, and the phone link let
   people, conversations, albums, records, notes and web pages. Every live tile is laid out for every size, its
   count right beside its icon, and the wallpaper behind see-through tiles can be frosted. Every tile can be given its own colour, name,
   icon, picture, animation, transparency and ink, and reset with one tap. Any hub's tile can open another
-  app instead. Three layouts: Mosaic (live tiles), Aura (a list of hubs as huge words), and Panorama on tablets.
+  app instead. Four layouts: Mosaic (live tiles), Aura (a list of hubs as huge words), Panorama on tablets, and **Paper** *(Pro)* - Mosaic as a colour e-reader: a plain page (paper, white, sepia, grey, or night's white ink on black), ink type in Literata, soft colours, no motion and nothing that follows the finger - as on an e-reader a swipe, the arrows at the foot or (if wanted) the volume keys turn a whole page at once, with a "2 / 7" page count at the foot - whatever is touched turning to ink for a moment, and the screen clearing with a short black-and-white flash as a page turns (every page, every six, or never), with faint traces of the page before if wanted; on a tablet Start is a spread, the tiles on the left and today, recent apps and what is playing on the right.
 - **The Aura layout.** A list of hubs as words, each with a live line beneath it. In phone,
   people, messaging, music, videos and pictures the name touched flies up and becomes the hub's huge, bold title,
   which runs off the right edge, slides as the pages turn and goes back when touched; a conversation, a contact,
   a group, an album or a music list opens and closes the same way. Music has its own menu with genres and an
-  alphabet jump, quickplay sits in the list (always open on the right on a tablet), and pinned apps stand as
-  Mosaic tiles on a page of their own.
+  alphabet jump, quickplay sits in the list (always open on the right on a tablet), and on a tablet pinned apps
+  stand as Mosaic tiles beside the list.
 - **Tablet.** Panorama's Start, full screen and grouped; a swipe up slides it off while the app list rises from
   below — apps under their letters in columns, scrolling sideways, ordered by name, install date or use, with
   the app bar on a hold. Pulling the board past its first group opens the social hub.
@@ -396,7 +433,13 @@ Start, messages, music and the TV all speak one language, and the phone link let
   opening into a large moving preview before it starts, the clock in the bar along the foot and a message board for
   the phone's calls and messages, in the open Nunito type. Console and Lounge
   have a logo at launch, a zoom between pages, the open Selawik type and navigation sounds made here
-  that can be turned off. A film left part way waits under "continue"; the remote's Home button opens Zeta
+  that can be turned off. A film left part way waits under "continue". Let Zeta read the TV's listings (it asks
+  once, and settings → system has it later) and what you left part way in your other apps, with the rows of picks
+  they keep, comes to Start too, free and in every design: along Console's tv + movies and in a "from your apps"
+  section, in Lounge's TV + Movies and a strip for each app, in Aura's first quick row and a row for each app, in
+  Showcase's continue channel and the apps' own channels. What is read stays on the TV, each thing opens in its own
+  app, and the child lock and hidden apps hold there too; if you like, the videos left part way in Zeta's player go
+  on the TV's continue watching as well (off by default). The remote's Home button opens Zeta
   through an accessibility service, and Zeta comes up when the TV is turned on or wakes on its home screen. **The phone link** pairs a phone running Zeta with a TV on the same
   Wi-Fi by a six-digit code; calls, missed calls and messages then show in the TV's corner over whatever is
   on. The message text stays on the phone unless you allow it; no server, encrypted, on your own network.
@@ -407,15 +450,19 @@ Start, messages, music and the TV all speak one language, and the phone link let
   hidden from Start.
 - **Action center.** A pull from the status bar brings down the action center instead of
   Android's shade: quick actions, a thin brightness slider, the music playing, and notifications grouped by
-  app — the launcher's own by hub — to open, swipe away or answer in place. On a tablet it is a column from
+  app — the launcher's own by hub — to open, swipe away or answer in place; a bell opens Android's own shade,
+  and a cleared notification fades while those below slide up. On a tablet it is a column from
   the right edge. It runs on an accessibility service, and the lock screen keeps Android's own shade.
 - **Hubs, all in-app.** Phone, Messaging (picture messages, search in a conversation, delivery reports),
   People (a panorama: all, what's new, recent), Pictures, Music + Videos (with the launcher's
   own video player: small window, resume where you left off, subtitles, sound tracks, speed, the next
   episode, a touch lock), Internet, News, Email, Notes, Files (folders as tiles; copy, cut, paste, rename,
   delete, details, drag up a folder; opens text, pictures, sound, video and PDF itself; cloud files through the phone's own picker), Social,
-  Clock, Calendar, Weather, Calculator, Camera. Hubs left with Home keep running and come back from the
-  running-hubs strip, a double press of Home, or a two-finger swipe that splits the screen. On a tablet a hub
+  Books (EPUBs a page at a time in its own reader, reading aloud, two pages side by side on a wide screen),
+  Clock, Calendar, Weather, Calculator, Camera. Notes, news and web pages can be read aloud. Hubs left with
+  Home keep running; a double press of Home shows everything open as full-screen cards side by side - with
+  Shizuku the phone's other open apps too, and, as an experiment, in place of the phone's own recents - and a
+  two-finger swipe splits the screen. On a tablet a hub
   has its headings down the left, what is open in a pane beside them, and a command bar.
 - **Internet and news.** Reading view offered beside the address where a page suits it, a reading list kept
   for offline, ad and tracker blocking with a per-site switch, a padlock and a proper warning for a bad
@@ -436,13 +483,13 @@ Start, messages, music and the TV all speak one language, and the phone link let
   set up in the beta stays as it is.
 - **Languages.** Turkish, English, French, German, Spanish, Italian and Brazilian Portuguese, the keyboard with
   each one's own word suggestions. With the battery saver on, the blur and the animations rest by themselves.
-- **Free and Pro.** Start, every hub, the action center, the tablet layout, the TV interface (the Console and Aura designs
-  and the phone link) and the default-app roles are whole in the free edition. Pro is one purchase inside the app, through Google Play (settings → about → Zeta
+- **Free and Pro.** Start, every hub, the action center, the tablet layout, the TV interface (the Console and Aura designs,
+  other apps' continue watching and the phone link) and the default-app roles are whole in the free edition. Pro is one purchase inside the app, through Google Play (settings → about → Zeta
   Pro, or touch anything locked); bought once, it holds on every phone signed in to the same Google account.
   Pro adds all accent colours, custom wallpaper, frosted tiles, each tile's own look,
   the hubs' background settings, the video player's subtitles, sound tracks, speed, fill, next episode and
   small window, online lyrics and covers, the social hub, locked notes, the news hub's own RSS sources, the
-  browser's reading list, PDF, translation and favourites, the TV's Lounge and Showcase designs, Zeta's keyboard, volume bar and banners.
+  browser's reading list, PDF, translation and favourites, the Paper design, the TV's Lounge and Showcase designs, Zeta's keyboard, volume bar and banners.
   Pro can be tried free for 10 days: the app asks once, and settings → about → Zeta Pro starts it later.
   When it ends, Pro's features close, and what was set in Pro waits, untouched, for Pro to be bought. The
   trial is taken once; clearing the app's data does not start it again.
@@ -453,11 +500,15 @@ Start, messages, music and the TV all speak one language, and the phone link let
   No code goes into Zeta, no hub is added without the person's say, and Zeta gives a hub none of their data.
   ZetaHubKit is Apache 2.0, in the public repository's [`hubkit/`](https://github.com/serkantkn/Zeta/tree/main/hubkit); guide: [write a hub for Zeta](https://serkantkn.github.io/Zeta/developers.html).
 - **Privacy.** No server, and in the app no ads, no analytics, no account. Only weather, news, lyrics and search suggestions
-  (and, with blocking on, a weekly blocklist download) ever leave the phone, and only when you use them. Two
+  (and, with blocking on, a weekly blocklist download) ever leave the phone, and only when you use them. Four
   optional permissions do one thing each: precise location only shows the Wi-Fi network's name (the weather
-  keeps to a rounded, approximate position), nearby devices only names the Bluetooth devices connected. See [PRIVACY.en.md](PRIVACY.en.md).
+  keeps to a rounded, approximate position), nearby devices only names the Bluetooth devices connected and their
+  battery levels, physical activity only counts today's steps for the steps widget (the count stays on the phone),
+  and on a TV the TV listings only bring other apps' continue watching and rows of picks to Start (read on the TV;
+  their pictures come from the addresses those apps gave). If you choose, the name and a frame of each video left
+  part way in the player go on the TV's continue watching, where the TV's home screens see them too. See [PRIVACY.en.md](PRIVACY.en.md).
 
 **Download** the APK from [Releases](https://github.com/serkantkn/Zeta/releases) (Android 9 or later; the
 same file runs on phones, tablets and Android TV / Google TV) and report bugs or ideas in
 [issues](https://github.com/serkantkn/Zeta/issues). Written in Kotlin, all of the UI in Jetpack Compose.
-**Zeta is closed source** and free to use; only [`hubkit/`](hubkit/) (ZetaHubKit) is open, under the Apache License 2.0. Tile glyphs are Microsoft's Fluent UI System Icons (MIT); the TV designs use the Selawik and Nunito typefaces (SIL OFL 1.1). The keyboard's word lists are adapted from FrequencyWords (CC BY-SA 4.0) and Tatoeba (CC BY 2.0 FR). The offensive-word filter draws on LDNOOBW (CC BY 4.0).
+**Zeta is closed source** and free to use; only [`hubkit/`](hubkit/) (ZetaHubKit) is open, under the Apache License 2.0. Tile glyphs are Microsoft's Fluent UI System Icons (MIT); the TV designs use the Selawik and Nunito typefaces and Paper uses Literata (SIL OFL 1.1). The keyboard's word lists are adapted from FrequencyWords (CC BY-SA 4.0) and Tatoeba (CC BY 2.0 FR). The offensive-word filter draws on LDNOOBW (CC BY 4.0).
