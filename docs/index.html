@@ -245,6 +245,7 @@
   <div class="wrap">
     <span class="brand">zeta</span>
     <a class="tab active" href="#baslangic">başlangıç</a>
+    <a class="tab" href="#paper">paper</a>
     <a class="tab" href="#hublar">hub'lar</a>
     <a class="tab" href="#internet">internet</a>
     <a class="tab" href="#varsayilan">varsayılan</a>
@@ -356,20 +357,14 @@
           <div class="feature"><b>iki düzen bir arada</b><span>tablette Aura listesinin yanında sabitlediğin uygulamalar Mozaik karoları olarak durur</span></div>
           <div class="feature"><b>hub yerine uygulama</b><span>istersen "internet" karosu Chrome'u açsın; her hub istediğin uygulamaya yönlendirilir</span></div>
           <div class="feature"><b>bildirim şeridi</b><span>pano en üstteyken aşağı çekince bildirim şeridi iner</span></div>
-          <div class="feature"><b>dört düzen</b><span>Mozaik (canlı karolar), Aura (dev yazılı hub listesi), tablette Panorama (yatay pano)</span></div>
-          <div class="feature"><b>paper <em>(Pro)</em></b><span>Mozaik, renkli bir e-kitap okuyucu gibi: kâğıt, beyaz, sepya, gri ya da gece renginde düz bir sayfa, mürekkep yazı ve Literata, yumuşak renkler, animasyon yok; hiçbir şey parmağı izlemez, kaydırınca ya da alttaki oklarla (istersen ses tuşlarıyla) bir seferde tam bir sayfa çevrilir ve altta sayfa sayısı durur; dokunulan şey mürekkebe döner, sayfa değişince e-mürekkep gibi kısa bir yenileme çakması, istersen önceki sayfanın soluk izi. Tablette başlangıç çift sayfa: solda karolar, sağda bugün, son açılanlar ve çalan şarkı</span></div>
+          <div class="feature"><b>dört düzen</b><span>Mozaik (canlı karolar), Aura (dev yazılı hub listesi), tablette Panorama (yatay pano) ve e-kitap okuyucu gibi <a href="#paper">Paper</a> <em>(Pro)</em></span></div>
         </div>
       </div>
       <div>
         <div class="shots three">
           <figure><img id="boardShot" src="img/baslangic.png" alt="Başlangıç panosu" width="400" height="889"><figcaption>Mozaik panosu</figcaption></figure>
           <figure><img src="img/uygulamalar.png" alt="Uygulama listesi" width="400" height="889"><figcaption>uygulamalar: sık kullanılanlar başta, harfler üstte sabit</figcaption></figure>
-          <figure><img src="img/dosyalar.png" alt="Dosyalar hub'ında bir klasör" width="400" height="889"><figcaption>klasörün adı sayfanın başlığı</figcaption></figure>
-        </div>
-        <div class="shots three" style="margin-top:14px">
-          <figure><img src="img/paper.png" alt="Paper tasarımında başlangıç ekranı" width="400" height="700" loading="lazy"><figcaption>paper <em>(Pro)</em>: kâğıt sayfa, mürekkep yazı</figcaption></figure>
-          <figure><img src="img/paper-hava.png" alt="Paper tasarımında hava durumu" width="400" height="700" loading="lazy"><figcaption>hava durumu, gökyüzü yerine yazıyla</figcaption></figure>
-          <figure><img src="img/paper-gece.png" alt="Paper tasarımı gece renginde" width="400" height="700" loading="lazy"><figcaption>gece: siyah sayfa, beyaz mürekkep</figcaption></figure>
+          <figure><img src="img/acik-olanlar.png" alt="Açık olanlar: hub'lar ve uygulamalar kart olarak yan yana" width="400" height="888" loading="lazy"><figcaption>açık olanlar: Home'a çift bas, her hub ve uygulama bir kart</figcaption></figure>
         </div>
         <div class="swatches" id="swatches" role="group" aria-label="vurgu rengi">
           <button class="swatch" style="background:#d61b5f" data-accent="#d61b5f" data-shot="img/baslangic-magenta.png" aria-label="magenta"></button>
@@ -393,6 +388,41 @@
   </div>
 </section>
 
+<section id="paper">
+  <div class="wrap">
+    <h2>paper</h2>
+    <p class="tag">Zeta, renkli bir e-kitap okuyucu gibi: kâğıt bir sayfa, mürekkep yazı, hiç animasyon yok. Sakin, göz yormayan bir telefon için. <em>(Pro)</em></p>
+    <div class="two">
+      <div class="prose">
+        <div class="features">
+          <div class="feature"><b>kâğıt sayfa</b><span>kâğıt, beyaz, sepya, gri ya da gece: düz bir zemin, yumuşak renkler, karolar ince çizgili kutular</span></div>
+          <div class="feature"><b>mürekkep yazı</b><span>kitap yazı tipi Literata; dokunduğun şey bir an mürekkebe döner</span></div>
+          <div class="feature"><b>sayfa sayfa</b><span>hiçbir şey parmağı izlemez: kaydırınca, alttaki oklarla ya da istersen ses tuşlarıyla bir seferde tam bir sayfa; altta "2 / 7"</span></div>
+          <div class="feature"><b>yenileme çakması</b><span>sayfa değişince e-mürekkep gibi kısa bir siyah-beyaz çakma: her sayfada, altı sayfada bir ya da hiç; istersen önceki sayfanın soluk izi</span></div>
+          <div class="feature"><b>her yerde</b><span>hub'lar, diyaloglar, eylem merkezi, ses çubuğu, bildirim şeridi ve klavye de Paper'a göre giyinir</span></div>
+          <div class="feature"><b>kitaplarla</b><span>kitaplar hub'ında EPUB'lar gerçek bir e-kitap okuyucudaki gibi sayfa sayfa okunur</span></div>
+          <div class="feature"><b>tablette çift sayfa</b><span>solda karolar, sağda bugün, son açılanlar ve çalan şarkı</span></div>
+        </div>
+      </div>
+      <div>
+        <video controls preload="none" playsinline poster="img/paper-video.jpg" width="1280" height="720" style="width:100%;height:auto;border:1px solid var(--line);border-radius:14px;background:#f3efe6"><source src="img/paper.mp4" type="video/mp4"></video>
+        <p class="tag" style="font-size:14px;margin:8px 0 0">Bir buçuk dakikada Paper: telefonda ve tablette nasıl kullanılır.</p>
+      </div>
+    </div>
+    <div class="shots" style="margin-top:32px">
+      <figure><img src="img/paper.png" alt="Paper tasarımında başlangıç ekranı" width="400" height="700" loading="lazy"><figcaption>başlangıç: kâğıt sayfa, mürekkep yazı</figcaption></figure>
+      <figure><img src="img/paper-kitaplar.png" alt="Paper tasarımında kitaplar hub'ı" width="400" height="700" loading="lazy"><figcaption>kitaplar: okunanlar</figcaption></figure>
+      <figure><img src="img/paper-okuyucu.png" alt="Paper tasarımında bir kitabın sayfası" width="400" height="700" loading="lazy"><figcaption>okuyucu: sayfa 2 / 4</figcaption></figure>
+      <figure><img src="img/paper-eylem.png" alt="Paper tasarımında eylem merkezi" width="400" height="700" loading="lazy"><figcaption>eylem merkezi de kâğıtta</figcaption></figure>
+      <figure><img src="img/paper-hava.png" alt="Paper tasarımında hava durumu" width="400" height="700" loading="lazy"><figcaption>hava durumu, gökyüzü yerine yazıyla</figcaption></figure>
+      <figure><img src="img/paper-gece.png" alt="Paper tasarımı gece renginde" width="400" height="700" loading="lazy"><figcaption>gece: siyah sayfa, beyaz mürekkep</figcaption></figure>
+    </div>
+    <div class="shots wide" style="margin-top:20px">
+      <figure><img src="img/paper-tablet.jpg" alt="Paper tasarımında tablette çift sayfa başlangıç" width="1000" height="625" loading="lazy"><figcaption>paper <em>(Pro)</em>: başlangıç çift sayfa — solda karolar, sağda bugün, son açılanlar ve çalan şarkı</figcaption></figure>
+    </div>
+  </div>
+</section>
+
 <section id="hublar">
   <div class="wrap">
     <h2>hub'lar</h2>
@@ -406,6 +436,7 @@
       <button class="hub" type="button"><div class="face front"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.904 16.5h6.192C14.476 19.773 13.235 22 12 22c-1.197 0-2.4-2.094-3.038-5.204l-0.058-0.294h6.192-6.192zm-5.838 0.001h4.306c0.364 2.082 0.983 3.854 1.792 5.093-2.563-0.757-4.697-2.512-5.952-4.814L3.066 16.5zm13.563 0h4.305c-1.231 2.44-3.432 4.306-6.097 5.093 0.755-1.158 1.344-2.778 1.715-4.681L16.63 16.5h4.305-4.305zM16.93 10h4.87c0.132 0.646 0.2 1.315 0.2 2 0 1.045-0.16 2.053-0.457 3H16.84c0.105-0.958 0.16-1.964 0.16-3 0-0.455-0.01-0.903-0.03-1.344L16.93 10h4.87-4.87zM2.2 10h4.87C7.023 10.65 7 11.318 7 12c0 0.829 0.035 1.639 0.103 2.42L7.159 15H2.456c-0.297-0.947-0.458-1.955-0.458-3 0-0.685 0.07-1.354 0.2-2zm6.377 0h6.849c0.05 0.645 0.077 1.314 0.077 2 0 0.837-0.04 1.65-0.114 2.425L15.327 15H8.674c-0.113-0.946-0.175-1.953-0.175-3 0-0.515 0.015-1.02 0.043-1.512L8.576 10h6.849-6.85zm6.368-7.424l-0.108-0.17c3.019 0.89 5.443 3.167 6.536 6.093h-4.59c-0.316-2.417-0.957-4.492-1.838-5.923l-0.108-0.17 0.108 0.17zM9.042 2.444l0.122-0.037C8.283 3.757 7.628 5.736 7.28 8.06L7.219 8.5h-4.59C3.706 5.613 6.08 3.358 9.041 2.443l0.122-0.037-0.122 0.037zM12 2.002c1.319 0 2.646 2.542 3.214 6.183L15.261 8.5H8.739C9.28 4.691 10.644 2.002 12 2.002z"/></svg><span class="label">internet</span></div><div class="face back"><b>internet</b>sekmeler, okuma görünümü ve listesi, reklam engelleme, gizli gezinme<small>sayfayı panoya sabitle</small></div></button>
       <button class="hub" type="button"><div class="face front"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 8.608v8.142c0 1.733-1.357 3.15-3.066 3.245L18.75 20H5.25c-1.733 0-3.15-1.357-3.245-3.066L2 16.75V8.608l9.652 5.056c0.218 0.114 0.478 0.114 0.696 0L22 8.608zM5.25 4h13.5c1.685 0 3.07 1.282 3.234 2.924L12 12.154l-9.984-5.23c0.158-1.581 1.448-2.829 3.048-2.919L5.25 4h13.5-13.5z"/></svg><span class="label">e-posta</span></div><div class="face back"><b>e-posta</b>IMAP/SMTP, birden çok hesap; Gmail, Outlook ve Yandex hazır<small>şifreler cihazda şifreli</small></div></button>
       <button class="hub" type="button"><div class="face front"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.75 3C19.545 3 21 4.455 21 6.25V13h-4.75C14.455 13 13 14.455 13 16.25V21H6.25C4.455 21 3 19.545 3 17.75V6.25C3 4.455 4.455 3 6.25 3h11.5zm2.81 11.5l-6.06 6.06v-4.31c0-0.966 0.784-1.75 1.75-1.75h4.31z"/></svg><span class="label">notlar</span></div><div class="face back"><b>notlar</b>kontrol listeleri, resim ve ses, kilitli notlar (Pro)<small>notu panoya sabitle</small></div></button>
+      <button class="hub" type="button"><div class="face front"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M7 2h11a2 2 0 0 1 2 2v13a1 1 0 0 1-1 1H7.5a1.5 1.5 0 0 0 0 3H19a1 1 0 1 1 0 2H7.5A3.5 3.5 0 0 1 4 19.5V5a3 3 0 0 1 3-3zm1 4v2h8V6H8zm0 4v1.5h5V10H8z"/></svg><span class="label">kitaplar</span></div><div class="face back"><b>kitaplar</b>okunanlar, kitaplık ve yazarlar; EPUB'lar kendi okuyucusunda sayfa sayfa, sesli okuma<small>okunan kitap karoda</small></div></button>
       <button class="hub" type="button"><div class="face front"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 8V6.25C2 4.455 3.455 3 5.25 3h2.879c0.596 0 1.169 0.237 1.59 0.659l1.531 1.53L8.659 7.78C8.519 7.921 8.328 8 8.129 8H2zm0 1.5v8.25C2 19.545 3.455 21 5.25 21h13.5c1.795 0 3.25-1.455 3.25-3.25v-9c0-1.795-1.455-3.25-3.25-3.25h-5.69L9.72 8.841C9.298 9.263 8.725 9.5 8.129 9.5H2z"/></svg><span class="label">dosyalar</span></div><div class="face back"><b>dosyalar</b>klasörler karo olarak; kopyala, taşı, sürükleyerek üst klasöre taşı, yeniden adlandır, sil; metin, resim, ses, video ve PDF'i kendi açar<small>bulut dosyaları telefonun seçicisiyle</small></div></button>
       <button class="hub" type="button"><div class="face front"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.492 2.33l3.179 3.18c0.879 0.878 0.879 2.302 0 3.181l-2.584 2.584C20.17 11.437 21 12.372 21 13.5v5.25c0 1.243-1.007 2.25-2.25 2.25H5.25C4.007 21 3 19.993 3 18.75V5.25C3 4.007 4.007 3 5.25 3h5.25c1.129 0 2.064 0.832 2.225 1.915L15.31 2.33c0.879-0.878 2.304-0.878 3.182 0zM4.5 18.75c0 0.414 0.336 0.75 0.75 0.75h5.999l0.001-6.75H4.5v6zm8.249 0.75h6.001c0.414 0 0.75-0.336 0.75-0.75V13.5c0-0.414-0.336-0.75-0.75-0.75h-6.001v6.75zM10.5 4.5H5.25C4.836 4.5 4.5 4.836 4.5 5.25v6h6.75v-6c0-0.414-0.336-0.75-0.75-0.75zm2.25 4.81v1.94h1.94l-1.94-1.94z"/></svg><span class="label">sosyal</span></div><div class="face back"><b>sosyal</b>seçtiğin uygulamaların mesajları tek akışta<small>Pro</small></div></button>
       <button class="hub" type="button"><div class="face front"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.25 13.5h-4c-0.414 0-0.75-0.336-0.75-0.75v-6C10.5 6.336 10.836 6 11.25 6S12 6.336 12 6.75V12h3.25c0.414 0 0.75 0.336 0.75 0.75s-0.336 0.75-0.75 0.75zM12 2C6.478 2 2 6.478 2 12s4.478 10 10 10 10-4.478 10-10S17.522 2 12 2z"/></svg><span class="label">saat</span></div><div class="face back"><b>saat</b>alarmlar, dünya saati, kronometre, zamanlayıcı<small>sonraki alarm karoda</small></div></button>
@@ -422,6 +453,7 @@
       <figure><img src="img/muzik.png" alt="Müzik hub'ı" width="400" height="889" loading="lazy"><figcaption>müzik + videolar</figcaption></figure>
       <figure><img src="img/kisiler.png" alt="Kişiler hub'ı" width="400" height="889" loading="lazy"><figcaption>kişiler</figcaption></figure>
       <figure><img src="img/dosyalar.png" alt="Dosyalar hub'ı" width="400" height="889" loading="lazy"><figcaption>dosyalar</figcaption></figure>
+      <figure><img src="img/kitap-sesli.png" alt="Kitaplar hub'ında sesli okunan bir sayfa" width="400" height="888" loading="lazy"><figcaption>kitaplar, sesli okuma</figcaption></figure>
       <figure><img src="img/uygulamalar.png" alt="Uygulamalar" width="400" height="889" loading="lazy"><figcaption>uygulamalar</figcaption></figure>
     </div>
   </div>
@@ -494,7 +526,7 @@
     <div class="two">
       <div class="gifs">
         <figure><img src="img/eylem-merkezi.gif" alt="Durum çubuğundan çekince eylem merkezi iner" width="320" height="711" loading="lazy"><figcaption><b>çek, gelsin.</b> Durum çubuğunun üstünde görünmez bir şerit durur; ondan aşağı çekince Android'in paneli değil, eylem merkezi gelir.</figcaption></figure>
-        <figure><img src="img/eylem-merkezi.png" alt="Telefonda eylem merkezi" width="400" height="889" loading="lazy"><figcaption><b>telefonda.</b> Saat, hızlı eylemler, parlaklık, müzik ve uygulamaya göre gruplu bildirimler.</figcaption></figure>
+        <figure><img src="img/eylem-merkezi.png" alt="Telefonda eylem merkezi" width="400" height="889" loading="lazy"><figcaption><b>telefonda.</b> Saat, hızlı eylemler, parlaklık ve uygulamaya göre gruplu bildirimler; zil Android'in kendi panelini açar, sessizler açık gelir.</figcaption></figure>
       </div>
       <div class="prose">
         <div class="features">
@@ -530,7 +562,6 @@
       <figure><img src="img/tablet-uygulamalar.jpg" alt="Harflere göre gruplu uygulama listesi" width="1000" height="600" loading="lazy"><figcaption>uygulamalar: harfler, önce aşağı sonra yana okunan sütunlar, yana kayan liste</figcaption></figure>
       <figure><img src="img/tablet-cubuk.jpg" alt="Basılı tutunca gelen uygulama çubuğu" width="1000" height="600" loading="lazy"><figcaption>basılı tut: uygulama çubuğu alttan gelir — sabitle, gizle, paylaş, bilgi, kaldır</figcaption></figure>
       <figure><img src="img/tablet-tarih.jpg" alt="Yüklenme tarihine göre sıralı liste" width="1000" height="600" loading="lazy"><figcaption>başlığın yanındaki menü: ada, yüklenme tarihine ya da kullanıma göre</figcaption></figure>
-      <figure><img src="img/paper-tablet.jpg" alt="Paper tasarımında tablette çift sayfa başlangıç" width="1000" height="625" loading="lazy"><figcaption>paper <em>(Pro)</em>: başlangıç çift sayfa — solda karolar, sağda bugün, son açılanlar ve çalan şarkı</figcaption></figure>
     </div>
     <div class="features" style="margin-top:32px">
       <div class="feature"><b>gruplar</b><span>hub'lar, uygulamalar, notlar; karolar sütun sütun dolar, küçükler boşlukları alır</span></div>
