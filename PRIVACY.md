@@ -1,6 +1,6 @@
 # Zeta — Gizlilik Politikası
 
-Son güncelleme: 7 Kasım 2026 · Sürüm 1.10
+Son güncelleme: 8 Kasım 2026 · Sürüm 1.11
 
 ## Kısaca
 
@@ -11,7 +11,7 @@ telefonunuzda kalır.
 
 Telefondan çıkan tek şey, sizin istediğiniz bir işi yapmak için gereken en küçük bilgidir:
 hava durumu için yaklaşık konum, şarkı sözü için parça adı, arama önerisi için yazdığınız
-metin, haberler için seçtiğiniz konular ve siteler. Aşağıda tek tek yazılı.
+metin, haberler için seçtiğiniz konular ve siteler; isterseniz yeni bir sürüm olup olmadığı sorusu. Aşağıda tek tek yazılı.
 
 ## Telefonda kalan veriler
 
@@ -59,6 +59,18 @@ Dosyanız yüklenmez.
 **Arama önerileri — seçtiğiniz arama motoru (Google, Bing, DuckDuckGo, Yandex)**
 Tarayıcıda yazdığınız metin, siz yazarken öneri almak için gönderilir. Ayarlardan
 kapatılabilir; kapalıyken hiçbir şey gitmez.
+
+**Yeni sürüm denetimi — serkantkn.github.io (GitHub)**
+Yalnızca GitHub'dan indirilen APK'da ve yalnızca siz isterseniz. Başlangıç ekranında bir kez
+sorulur; "haber ver" demedikçe hiçbir istek gitmez. Evet derseniz uygulama öne geldiğinde, en fazla
+günde bir kez, sitedeki küçük bir dosya (latest.json) istenir ve en son sürümün numarası telefonda,
+kurulu sürümle karşılaştırılır. İstekte kimliğiniz, cihaz numaranız, telefonunuzun modeli ya da kurulu
+sürüm yoktur; tarayıcı kimliği olarak yalnızca "Zeta" yazılır. Siteyi barındıran GitHub, her web
+sitesinde olduğu gibi isteğin geldiği IP adresini ve zamanını görür; bunlar GitHub'ın kendi gizlilik
+bildirimine tabidir ve bize ulaşmaz. Daha yeni bir sürüm varsa bir bildirimle söylenir; dokununca
+GitHub'daki sürüm sayfası açılır, uygulama kendiliğinden bir şey indirmez ya da kurmaz. Cevabınız
+yedeklenmez, yeni bir telefonda yeniden sorulur; ayarlar → hakkında'dan açılıp kapatılır, kapatınca
+bulunan sürüm de unutulur. Google Play'den kurulan Zeta bunu hiç yapmaz; onun güncellemelerini Play yapar.
 
 **E-posta — sizin belirlediğiniz sunucular**
 Girdiğiniz IMAP/SMTP sunucusuna doğrudan bağlanılır. Aradan geçen kimse yok; bizim

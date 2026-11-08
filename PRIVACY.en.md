@@ -1,6 +1,6 @@
 # Zeta — Privacy Policy
 
-Last updated: 7 November 2026 · Version 1.10
+Last updated: 8 November 2026 · Version 1.11
 
 ## In short
 
@@ -11,7 +11,7 @@ stays on your phone.
 
 The only things that leave are the smallest pieces needed to do something you asked for:
 approximate location for the weather, a track name for lyrics, what you type for search
-suggestions, the topics and sites you chose for the news. Each one is listed below.
+suggestions, the topics and sites you chose for the news; if you want, the question whether a newer version is out. Each one is listed below.
 
 ## What stays on the phone
 
@@ -57,6 +57,19 @@ track playing. Your file is never uploaded.
 **Search suggestions — the search engine you chose (Google, Bing, DuckDuckGo, Yandex)**
 What you type in the browser is sent as you type, to suggest completions. It can be switched
 off in settings, and then nothing is sent.
+
+**New version check — serkantkn.github.io (GitHub)**
+Only in the APK downloaded from GitHub, and only if you want it. You are asked once on Start;
+until you say "tell me", no request is made. If you say yes, then when the app comes to the front, at
+most once a day, a small file on the site (latest.json) is fetched and the latest version's number is
+compared with the installed one on the phone. The request carries no identity, no device number, not
+your phone's model and not the installed version; its browser name is just "Zeta". GitHub, which hosts
+the site, sees the IP address the request came from and when, as with any website; that falls under
+GitHub's own privacy statement and does not reach us. If a newer version is out, a notification says
+so; tapping it opens the version's page on GitHub, and the app downloads and installs nothing by itself.
+Your answer is not backed up, so a new phone asks again; it is switched on and off in settings → about,
+and switching it off forgets the version found. Zeta installed from Google Play never does this; Play
+updates it.
 
 **Email — the servers you enter**
 The app connects straight to your IMAP/SMTP server. Nothing sits in between, and there is no
